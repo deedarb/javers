@@ -14,7 +14,6 @@ dependencies {
     testCompile 'org.mariadb.jdbc:mariadb-java-client:2.2.3'
     testCompile 'mysql:mysql-connector-java:8.0.14'
     testCompile 'org.codehaus.gpars:gpars:1.2.1'
-    testCompile "joda-time:joda-time:$jodaVersion"
     testCompile "org.testcontainers:mssqlserver:$testcontainers"
     testCompile "org.testcontainers:postgresql:$testcontainers"
     testCompile "org.testcontainers:mysql:$testcontainers"

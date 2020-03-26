@@ -12,7 +12,7 @@ public class Case208DateTimeTypes {
 
     java.util.Date date = new java.util.Date();
 
-    org.joda.time.LocalDateTime yodaDate = org.joda.time.LocalDateTime.now();
+    java.time.LocalDateTime yodaDate = java.time.LocalDateTime.now();
 
     java.time.LocalDateTime java8Date = java.time.LocalDateTime.now();
     java.time.ZonedDateTime java8ZonedDate = java.time.ZonedDateTime.now();
